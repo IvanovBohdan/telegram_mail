@@ -1,3 +1,4 @@
 const telegram = window.Telegram.WebApp;
 
-console.log(telegram.initData);
+const div = document.querySelector(".telegramData");
+div.innerHTML = telegram.initData;
