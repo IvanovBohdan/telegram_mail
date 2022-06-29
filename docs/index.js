@@ -1,4 +1,4 @@
 const telegram = window.Telegram.WebApp;
 
-const div = document.querySelector(".telegramData");
+const div = document.querySelector("#telegramData");
 div.innerHTML = telegram.initData + "fuckoff";
