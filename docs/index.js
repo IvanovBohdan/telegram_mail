@@ -1,4 +1,7 @@
-const telegram = window.Telegram.WebApp;
+window.onload = () => {
+    const telegram = window.Telegram.WebApp;
 
-const div = document.getElementById("telegramData");
-div.innerHTML = telegram.initData + "fuckoff";
+    const div = document.getElementById("data");
+    console.log(div);
+    div.innerHTML = telegram.initData + "fuckoff";
+};
